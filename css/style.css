@@ -1,0 +1,43 @@
+.custom-container {
+    border: 2px solid #ccc;
+    background-color: #f5f5f5;
+    margin: 20px;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 40px;
+    height: auto;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.card {
+    min-height: 100%;
+}
+
+.card-header {
+    text-align: center;
+}
+
+#recette {
+    padding-top: 2em;
+}
+
+/* CSS personnalisé pour centrer les numéros des listes ordonnées */
+.card-body ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.card-body ol li {
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
